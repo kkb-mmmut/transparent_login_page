@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<meta http-equiv="refresh" content="8"/>
+<link rel="stylesheet" href="style.css">
+ <script src="kscript.js"></script> 
+ </head>
+ <body class="welcome" onload="captcha()">
+ <div id="outer"><form id="this" onload="resetform()">
+<div class="image-base">
+<div class="image"></div>
+</div>
+<div class="plate"></div>
+<div class="container"><form>
+<input type="email" id="email" placeholder="Enter Email"/>
+<input type="password" id="name" placeholder="Enter Password"/>
+<input type="text" id="capt" readonly />
+<input type="button" id="reload" value="RELOAD"  onclick="captcha()"> 
+<input type="text" id="catch" placeholder="Enter above captcha" /> 
+<input type="button" id="submit" value="LOGIN" onclick="match()"></form>
+</div></form></div>
+</body>
+</html>

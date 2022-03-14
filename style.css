@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(black, maroon, red, lightred, orangered);
+  background-image: url("663.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#outer {
+  height: auto;
+  width: 400px;
+  margin: 20 auto;
+  border: 1px solid none;
+  background: rgba(00, 00, 00, 0.5);
+  box-shadow: 5px 5px 5px black;
+  padding: 5px;
+}
+.image-base {
+  height: 200px;
+  width: 200px;
+  margin: 10 auto;
+  border-radius: 200px;
+  border: 1px solid black;
+  background: rgba(00, 00, 00, 0.5);
+  box-shadow: 5px 5px 5px black;
+}
+.image {
+  height: 150px;
+  width: 150px;
+  border: 1px solid none;
+  background-image: url("0222.png");
+  background-position: fixed;
+  background-size: 150px 150px;
+  margin: 30px auto;
+  border-radius: 200px;
+}
+.plate {
+  margin: 1 auto;
+  width: 40;
+  height: 0;
+  margin-top: -8px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 30px solid black;
+}
+.container {
+  height: auto;
+  width: 380px;
+  border: 1px solid none;
+  background: rgba(00, 00, 00, 0.5);
+  box-shadow: 5px 5px 5px black;
+  background-position: fixed;
+  margin: 1px auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#name,
+#email,
+#catch {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  height: 40px;
+  width: 350px;
+  font-size: 25px;
+  margin-top: 10px;
+  border-radius: 30px;
+  outline: none;
+  font-family: consolas;
+  background: rgba(00, 00, 00, 0.2);
+}
+#name:hover {
+  background-color: lightgreen;
+  color: blue;
+}
+#email:hover {
+  background-color: lightgreen;
+  color: blue;
+}
+#capt {
+  color: red;
+  font-weight: bolder;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  font-size: 25px;
+  margin-top: 10px;
+  background: rgba(00, 00, 00, 0.2);
+  border-radius: 30px 0px 0px 30px;
+  outline: none;
+  font-family: consolas;
+}
+#capt:hover {
+  background-color: lightgreen;
+}
+#reload {
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: -4px;
+  margin-top: 10px;
+  border-radius: 0px 30px 30px 0px;
+  outline: none;
+  font-family: consolas;
+  font-weight: bolder;
+}
+#reload:hover {
+  background-color: lightgreen;
+}
+
+#catch:hover {
+  background-color: lightgreen;
+  color: blue;
+}
+
+#submit {
+  height: 40px;
+  width: 250px;
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 25px auto;
+  border-radius: 30px;
+  outline: none;
+  font-family: consolas;
+  font-weight: bolder;
+}
+#submit:hover {
+  background-color: lightgreen;
+  color: black;
+}
